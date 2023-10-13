@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>TimeTravels</title>
+    <link type="Image/x-icon" href="./img/favicon.png" rel="icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Onest:wght@200;400;500;600;700&display=swap
+    rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Hero-header -->
+
+    <section class="header-section">
+      <header id="top">
+        <div class="header-container">
+          <a href="/index.html">TimeTravels</a>
+          <nav class="navigation">
+            <ul class="nav-list">
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#offers">Travel Offers</a></li>
+              <li><a href="#destination">Destination</a></li>
+              <li><a href="#careers">Careers</a></li>
+            </ul>
+          </nav>
+          <ul class="login-list">
+            <li><a href="/">Sign up</a></li>
+            <li><button type="button" class="login-button">Login</button></li>
+          </ul>
+
+          <!-- Mob-version -->
+
+          <button type="button" class="menu-open-button">
+            <svg class="menu-icon">
+              <use href="./img/sprite.svg#icon-menu"></use>
+            </svg>
+          </button>
+
+          <button type="button" class="menu-close-btn is-hidden">
+            <svg class="menu-icon">
+              <use href="./img/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="mob-menu is-hidden">
+          <nav>
+            <ul class="nav-list">
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#packeges">Travel Packages</a></li>
+              <li><a href="#destination">Destination</a></li>
+              <li><a href="#careers">Careers</a></li>
+            </ul>
+          </nav>
+          <ul class="login-list mob-login">
+            <li><a href="/">Sign up</a></li>
+            <li><button type="button" class="login-button">Login</button></li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="hero">
+        <h2 class="hero-subtitle">Time travels</h2>
+        <h1 class="hero-title">Let's Embark on Your Dream Journey</h1>
+        <p class="hero-text">
+          Discover Inspiring Destinations, Create Unforgettable Memories and
+          Travel with Confidence - Your Adventure Starts Here
+        </p>
+        <form class="hero-form">
+          <svg class="form-icon">
+            <use href="./img/sprite.svg#icon-search"></use>
+          </svg>
+          <input
+            type="text"
+            placeholder="Your journey begins with a search..."
+            class="form-input"
+          />
+          <input type="button" value="Search" class="form-submit" />
+        </form>
+      </div>
+    </section>
+
+    <main>
+      <!-- Advantages -->
+
+      <section id="about" class="advantages-section">
+        <ul class="advantage-list">
+          <li class="advantage-item">
+            <img src="./img/planner.png" alt="planner icon" />
+            <h3>Seamless Travel Planning</h3>
+
+            <p class="main-text">
+              Effortlessly plan your journey with our user-friendly platform.
+              From flights and accommodations to activities and dining, we've
+              got you covered.
+            </p>
+          </li>
+          <li class="advantage-item">
+            <img src="./img/map.jpg" alt="map icon" />
+            <h3>Tailored Experiences</h3>
+            <p class="main-text">
+              Personalized travel options that match your interests and
+              preferences. Explore the world your way and create unforgettable
+              memories.
+            </p>
+          </li>
+          <li class="advantage-item">
+            <img src="./img/letter.png" alt="letter icon" />
+            <h3>Reliable and Trustworthy</h3>
+            <p class="main-text">
+              Travel with confidence and peace of mind, knowing you're in good
+              hands. We're your trusted partner for safe, secure, and memorable
+              adventures.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Destination -->
+
+      <section id="destination" class="section-destination">
+        <div class="destination-description">
+          <div>
+            <h3 class="subtitle">Destination</h3>
+            <h2 class="section-title">City Escapes and Nature Retreats</h2>
+          </div>
+          <div>
+            <p>
+              From vibrant urban escapes to tranquil natural wonders, find your
+              perfect destination. Explore diverse landscapes and immerse
+              yourself in local cultures.
+            </p>
+            <a href="./index.html"
+              >Explore more
+              <svg>
+                <use href="./img/sprite.svg#icon-arrow-right"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <ul class="gallery-list">
+          <li>
+            <img src="./img/EastNusaTenggara.avif" alt="East Nusa Tenggara" />
+          </li>
+          <li>
+            <img src="./img/bali1.jpg" alt="Bali" />
+          </li>
+          <li class="big-img">
+            <img src="./img/bali.jpg" alt="Bali" />
+          </li>
+          <li>
+            <img src="./img/WestPapua.jpg" alt="West Papua" />
+          </li>
+          <li>
+            <img src="./img/east-java.jpg" alt="East Java" class="max-height" />
+          </li>
+        </ul>
+      </section>
+
+      <!-- Travel Offers -->
+
+      <section id="offers" class="offers-section">
+        <div class="card-wrapper">
+          <div class="offers-card left-card">
+            <h3 class="subtitle">Travel Offers</h3>
+            <h2 class="section-title">Unlock Exclusive Travel Deals</h2>
+            <p class="main-text">
+              Discover Unbeatable Offers on Flights, Accommodations and
+              Adventures
+            </p>
+            <img src="./img/passport.png" alt="passport" class="passport-img" />
+            <a href="/" class="btn-show-more">Show more </a>
+          </div>
+          <div class="img-wrapper">
+            <img
+              src="./img/best-hotel-bali.jpeg"
+              alt="The marvelous Viceroy Hotel in Ubud, Bali."
+              class="max-height"
+            />
+            <div class="info-box">
+              <span>Viceroy Hotel</span>
+              <span> Ubud, Bali.</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-wrapper">
+          <div class="img-wrapper">
+            <img
+              src="./img/CostaRica.avif"
+              alt="Costa Rica Luxury Hotel."
+              class="max-height"
+            />
+            <div class="info-box">
+              <span>Luxury Hotel</span>
+              <span> Alajuela, Costa Rica.</span>
+            </div>
+          </div>
+          <div class="img-wrapper right-card">
+            <img
+              src="./img/jumeirah-hotel.jpg"
+              alt="Jumeirah Port Soller Hotel in Mallorca, Spain"
+            />
+            <div class="info-box">
+              <span>Jumeirah Port Soller Hotel</span>
+              <span> Mallorca, Spain.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="footer-container">
+        <div class="desktop-container">
+          <div>
+            <a href="#top" class="logo">TimeTravels</a>
+            <p class="footer-text">
+              Our mission is to make travel experiences seamless, inspiring and
+              tailor-made to your dreams. Explore the with confidence, knowing
+              that we're your trusted parther in adventure.
+            </p>
+
+            <p class="mail-label">Get in touch</p>
+            <a href="mailto:info@timetravels.com" class="mail-link"
+              >info@timetravels.com</a
+            >
+            <ul class="soc-list">
+              <li>
+                <a
+                  href="http://linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="soc-icon">
+                    <use href="./img/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="http://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="soc-icon">
+                    <use href="./img/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="http://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="soc-icon">
+                    <use href="./img/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <nav class="footer-nav">
+            <div class="nav-block">
+              <h3>About us</h3>
+              <ul>
+                <li>
+                  <a href="/">About us</a>
+                </li>
+                <li>
+                  <a href="/"> Our team</a>
+                </li>
+                <li id="careers">
+                  <a href="/"> Careers <span>We're Hiring!</span></a>
+                </li>
+                <li>
+                  <a href="/">Mission and Values</a>
+                </li>
+                <li>
+                  <a href="/"> Partnerships</a>
+                </li>
+              </ul>
+            </div>
+            <div class="nav-block">
+              <h3>Help</h3>
+              <ul>
+                <li><a href="/">FAQ</a></li>
+                <li>
+                  <a href="/">Booking Guide</a>
+                </li>
+                <li>
+                  <a href="/">Cancellation Policy</a>
+                </li>
+                <li>
+                  <a href="/">Site Map</a>
+                </li>
+              </ul>
+            </div>
+            <div class="nav-block">
+              <h3>Resources</h3>
+              <ul>
+                <li>
+                  <a href="/">Newsletter</a>
+                </li>
+                <li>
+                  <a href="/">Blog</a>
+                </li>
+                <li>
+                  <a href="/">Gallery</a>
+                </li>
+                <li>
+                  <a href="/">Offers</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <p class="copy-text">
+          &copy; 2023 - TimeTravels, Inc. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
